@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+/* 요소검사에서 영역이 얼마나 잡혀있는지 보기 위해서 넣는거임 */
+.red{
+    background-color: red;
+}
+.black{
+    background-color: #000;
+}
+.yellow{
+    background-color: yellow;
+}
+
+/* AB */
+/* .container{ width: 1200px; margin: 0 auto;} */
+/* C */
+.container{ width: 1000px; }
+.w200{ width: 200px;}
+.w800{ width: 800px;}
+
+
+/* common */
+.h100{ height: 100px;}
+.rel{ position: relative;}
+.abs{ position: absolute;}
+.d-flex{ display: flex;}
+.justify-content-between{ justify-content: space-between;}
+.h300{ height: 300px;}
+.h200{ height: 200px;}
+.align-items-center{ align-items: center;}
+.h300{ height: 300px;}
+.h200{ height: 200px;}
